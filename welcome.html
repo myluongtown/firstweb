@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML LEARN</title>
+    <meta charset="UTF8">
+    <meta name="Học code HTML" content="HTML LEARN">
+    <meta name="keyword" content="HTML Learn HTML How to read HTML">
+    <meta name="author" content="Phạm Trương Thông">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;color:orange;background-color:azure">WELCOME</h1>
+    <p>Website này sẽ giới thiệu một số thẻ lệnh <b>cơ bản</b> trong <i><ins>HTML</ins></i></p>
+    <h3>Một File HTML có đuôi là <b><mark>.html</mark></b> <img src="file vd HTML.png" height="90px" alt="File html"
+            title="File html">
+    </h3>
+
+
+    <h1>Một cấu trúc <b>HTML</b> cơ bản:</h1>
+    <p style="text-indent: 50px">
+    <div>
+        < !DOCTYPE html>
+            <br>
+            &nbsp;&nbsp;< html>
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< head>
+                    <br>
+
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< /head><br>
+
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < body><br>
+
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< /body>
+                                <br><br>
+                                &nbsp;&nbsp; < /html>
+                                    </p>
+    </div>
+
+    <h1 style="text-align:center">Các thẻ phổ biến trong< head>
+            < /head>
+                </h3>
+                <ul>
+                    <li>
+                        < title>Tiêu đề cho tab website< /title>
+                    </li>
+                    <li>
+                        < meta charset="utf8">: dùng để mã hóa trang web dưới dạng gì..
+                    </li>
+                    <li>
+                        < meta name="Học code HTML" content="HTML LEARN"> : miêu tả trang
+                    </li>
+                    <li>
+                        < meta name="keyword" content="HTML Learn HTML How to read HTML"> : tạo các keyword để người
+                            dùng tìm kiếm
+                    </li>
+                    <li>
+                        < meta name="author" content="Nguyễn Văn A"> : tác giả trang web
+                    </li>
+                    <li>
+                        < meta name="viewport" content="width=device-width,initial-scale=1.0"> : khỏi tạo độ rộng web
+                            tương thích
+                            với thiết bị
+                    </li>
+                    <li>
+                        < link rel="stylesheet" href="web.css"> : đưa file css vào để apply cho page
+                    </li>
+                </ul>
+                <hr>
+                <h1 style="text-align-last: center;">Xử lí văn bản cơ bản bằng thẻ lệnh trong < body>
+                        < /body>
+                            </h3>
+                            <p>
+                                < b>in đậm< /b> : <b>Đây là ví dụ</b> <br>
+                                        < i>in nghiêng< /i> : <i>Đây là ví dụ</i><br>
+                                                < big>văn bản lớn< /big> : <big>Đây là ví dụ</big><br>
+                                                        < small>văn bản nhỏ< /small> : <small>Đây là ví
+                                                                    dụ</small><br>
+                                                                < sub>subscript< /sub> : <sub>Đây là ví dụ</sub><br>
+                                                                        < ins>inserted< /ins> : <ins>Đây là ví
+                                                                                    dụ</ins><br>
+                                                                                < del>deleted< /del> : <del>Đây là
+                                                                                            ví dụ</del><br>
+                                                                                        < mark>đánh dấu< /mark> :
+                                                                                                <mark>Đây là ví
+                                                                                                    dụ</mark>
+                            </p>
+                            <hr>
+                            <br>
+                            <h1 style="text-align:center">Các thẻ lệnh danh sách (LIST)</h1>
+
+                            <p>Unordered List (Không thứ tự) <br>
+                                < ul><br>
+                                    &nbsp;&nbsp;< li> "Thịt"<br>
+                                        &nbsp;&nbsp;< /li> "Rau"<br>
+                                            < /ul><br>
+                            </p>
+                            <h4>VD:<br>Unordered List < ul>
+                                    < /ul> (Không thứ tự)</h4>
+                            <ul>
+                                <li>Thịt</li>
+                                <li>Rau</li>
+                            </ul>
+
+                            <p>Ordered List (Có thứ tự)<br>
+                                < ol type="Kiểu" //A,1,..><br>
+                                    &nbsp;&nbsp;< li>1. Rau<br>
+                                        &nbsp;&nbsp;< /li>2. Thịt<br>
+                                            < /ol>
+                            </p>
+                            <h4>VD:<br>Ordered List < ol>
+                                    < /ol> (Có thứ tự)</h4>
+                            <ol type="1">
+                                <li>Rau</li>
+                                <li>Thịt</li>
+                            </ol>
+
+                            <p>Description List (Tự miêu tả)<br>
+                                < dl><br>
+                                    &nbsp;&nbsp;< dt>Tiêu đề danh sách< /dt><br>
+                                            &nbsp;&nbsp;< dd>Thành phần miêu tả< /dd><br>
+                                                    < /dl>
+                            </p>
+                            <h4>VD:<br>Description List < dl>
+                                    < /dl> (Tự miêu tả)</h4>
+                            <dl>
+                                <dt>Món ngon</dt>
+                                <dd>Pò pía, mì ăn liền,..</dd>
+                            </dl>
+                            <hr>
+                            <h1 style="text-align:center">Các thẻ lệnh chức năng</h1>
+
+                            <h3>Links (Đường liên kết) < a>
+                            </h3>
+                            <p>
+                                < a href="links" target="_blank//chuyển tab// hoặc _self//không chuyển//" <br>
+                                    //Fomat//<br>
+                                    < /a>
+                            </p>
+
+                            <h3>VD: </h3>
+                            <ul>
+                                <li>_target="blank" <a href="https://www.google.com.vn/" target="_blank">Google</a></li>
+                                <li>_target="_self" <a href="https://www.google.com.vn/" target="_self">Google</a></li>
+                            </ul>
+
+                            <h3>AUDIO < audio>
+                                    < /audio>
+                            </h3>
+                            <p>
+                                < audio • Attribute • controls>
+                                    <br>&nbsp;&nbsp;< source src="link." type="audio/mpeg">
+                                        <br>&nbsp;&nbsp;< source src="link dự phòng." type="audio/mpeg">
+                                            <br>
+                                            < /audio>
+                                                <ul>ATTRIBUTE
+                                                    <li>controls (hiển thị điều khiển)</li>
+                                                    <li>autoplay (tự động chạy)</li>
+                                                    <li>autoplay muted (tự động chạy và tắt tiếng)</li>
+                                                    <li>loop (lặp lại khi kết thúc)</li>
+                                                </ul>
+                            </p>
+                            <h3>VD : <audio controls>
+                                    <source src="AGA.weba" type="audio/mpeg">
+                                </audio></h3>
+                            <br>
+                            <h3>VIDEO < video>
+                                    < /video>
+                            </h3>
+                            <p>
+                                < video • Attribute • width="300px" (chiều rộng)>
+                                    <br>&nbsp;&nbsp;< source src="link.">
+                                        <br>&nbsp;&nbsp;< source src="link dự phòng.">
+                                            <br>
+                                            < /video>
+                            </p>
+                            <ul>ATTRIBUTE
+                                <li>controls (hiển thị điều khiển)</li>
+                                <li>autoplay (tự động chạy)</li>
+                                <li>autoplay muted (tự động chạy và tắt tiếng)</li>
+                                <li>loop (lặp lại khi kết thúc)</li>
+                            </ul>
+                            <h3>VD: <video controls width="300px">
+                                    <source src="tesing appllication.mp4">
+                                </video></h3>
+                            <br>
+                            <h3>Bảng (Table) < table>
+                                    < /table>
+                            </h3>
+                            <p>
+                                < table><br>
+                                    < tr>Table Row 1
+                                        <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;< th> Table head 1 < /th>
+                                                <br>&nbsp;&nbsp;&nbsp;&nbsp;< th> Table head 2 < /th>
+                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;< th> Table head 3 < /th>
+                                                                <br>
+                                                                < /tr>
+                                                                    <br>
+                                                                    < tr>Table Row 2
+                                                                        <br>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;< th> Table head 1 <
+                                                                                /th>
+                                                                                <br>&nbsp;&nbsp;&nbsp;&nbsp;< th> Table
+                                                                                    head 2 < /th>
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<
+                                                                                            th> Table head 3 < /th>
+                                                                                                <br>
+                                                                                                < /tr>
+                                                                                                    <br>
+                                                                                                    < /table>
+                            </p>
+                            <h3>VD:</h3>
+                            <table bgcolor="black">
+                                <tr bgcolor="grey">
+                                    <th>STT</th>
+                                    <th>Tên</th>
+                                    <th>Ngành</th>
+                                </tr>
+                                <tr bgcolor="lightgrey">
+                                    <th>1</th>
+                                    <th>Nguyễn Văn A</th>
+                                    <th>CNTT</th>
+                                </tr>
+                            </table>
+                            <br>
+                            <h3>Nhúng < iframe>
+                                    < /iframe>
+                            </h3>
+                            <p>
+                                < iframe Attribute src="link.">
+                                    < /iframe>
+                            </p>
+                            <h3>VD: <iframe width="100% " src="https://huit.edu.vn"></iframe></h3>
+                            <br>
+                            <h3>Nút bấm < button>
+                                    < /button>
+                            </h3>
+                            <p>
+                                < button style="border-radius: 5px;background-color: orchid;">
+                                    <br>
+                                    Title <br>
+                                    < /button>
+                            </p>
+                            <h3>VD: <button style="border-radius:5px;background-color:orchid">Bấm vào đê</button></h3>
+                            <br>
+                            <h3>Form < form>
+                                    < /form>
+                            </h3>
+                            <p>
+                                < form>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;< h1>Đăng nhập< /h1>
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< div>
+                                                <br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label
+                                                    for="fname">first name:< /label>
+                                                        <br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<
+                                                            input type="text" id="fname" name="fname">
+                                                            <br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< /div>
+                                                                <br>
+                                                                < /form>
+                            </p>
+                            <h3>VD: </h3>
+                            <form>
+                                <h1>Đăng nhập</h1>
+                                <div>
+                                    <label for="fname">first name:</label>
+                                    <input type="text" id="fname" name="fname">
+                                </div>
+                                <div>
+                                    <label for="submit">NỘP</label>
+                                    <input type="submit" id="submit" name="alldone">
+                                </div>
+                            </form>
+
+</body>
+
+</html>
