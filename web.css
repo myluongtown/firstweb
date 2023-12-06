@@ -1,12 +1,38 @@
 p {
-    background-color: bisque;
-    color: teal
+    width: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orchid;
+    padding: 10px;
 }
 
 body {
-    background-color: rgb(232, 185, 98);
+    font-family: sans-serif, Lucida Sans, Arial;
+    font-size: 16px;
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
-    color: yellow;
+    color: orangered;
+}
+
+#welcome {
+    font-size: 100px;
+    margin-left: 30%;
+    background: linear-gradient(to right, skyblue, lightgreen)
+}
+
+#structure {
+    margin-left: 150px;
+}
+
+#author {
+    margin-left: 90%;
+}
+
+#nhung {
+    width: 1000px;
+    height: 500px;
 }
